@@ -97,7 +97,6 @@ func main() {
 		err = json.Unmarshal(respBody, &poly)
 		if err != nil {
 			fmt.Printf("fail")
-			os.Exit(1)
 		}
 
 		polygons = append(polygons, poly)
